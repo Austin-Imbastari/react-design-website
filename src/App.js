@@ -2,13 +2,15 @@ import React from "react";
 //styles
 import GlobalStyles from "./Global.styles";
 //components
-import Pages from "./pages/Pages";
+import HeroPage from "./components/HeroPage";
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
         <>
             <GlobalStyles />
-            <Pages />
+            <Navbar />
+            <HeroPage />
         </>
     );
 }
